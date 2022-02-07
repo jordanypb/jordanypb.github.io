@@ -1,9 +1,5 @@
  body {
  	background : #ffffff;
  }
- h1 {
- 	font-family: 'Dongle', sans-serif;
- }
- h2 {
- 	font-family: 'Dongle', sans-serf=sans-serif;
- }
+
+ #font{font-family: 'Dongle', sans-serif;}
