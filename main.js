@@ -172,7 +172,7 @@ window.onload = function() {
 
 function addText(){
 	var textField = document.getElementById("textfield");
-	var msg = "<h1> This text was added!</h1>";
+	var msg = "<h1> YOU AH GAE</h1>";
 	textField.innerHTML = msg;
 }
 
