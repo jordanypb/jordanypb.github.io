@@ -1,5 +1,5 @@
 
-var dayofWeek = prompt ("What is today?");
+/*var dayofWeek = prompt ("What is today?");
 
 if (dayofWeek == "Monday"){
 	alert("Go to Design");
@@ -29,7 +29,7 @@ function classScheule(dayofWeek, weekType) {
 	alert("Go to Design");
 }
 
-}else if (dayofweek == "Tuesday") {
+}/else if (dayofweek == "Tuesday") {
 	alert("Go to Lakeshore");
 }else {
 	alert("Go home!");
@@ -169,13 +169,28 @@ window.onload = function() {
 	//document.write('<h1> + greeting + '</h1>');
 	//element.insertAdjacentHTML ("afterbegin", "<h1>" + greeting + "</h1>");
 
-
+*/
 function addText(){
 	var textField = document.getElementById("textfield");
 	var msg = "<h1> YOU AH GAE</h1>";
 	textField.innerHTML = msg;
 }
 
+
+window.onload = function() {
+	//var greeting;
+	//var element = document.getElementById("intro");
+
+	var button = document.querySelector("button");
+	button.addEventListener("click", addText);
+
+	//element.insertAdjacentHTML("afterbegin", "h1", + greeting + "</h1>");
+
+	function addText() {
+		var PEPEJULIANONZIEMA = document.getElementById("PEPEJULIANONZIEMA");
+		var msg = "<img id='PEPEJULIANONZIEMA' src='zeke.jpg' height='408'> </img>"
+		PEPEJULIANONZIEMA.innerHTML = msg;
+	}
 }
 /*
 var student = "Jordan";

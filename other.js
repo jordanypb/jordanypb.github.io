@@ -17,3 +17,6 @@ function addText(){
 
 }
 
+window.addEventListener("click", () => {
+    console.log("Welcome!");
+  });
