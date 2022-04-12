@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="test.css">
-<script type="text/javascript" src="main.js"></script>
-	<title>About Jordan</title>
-</head>
-<body>
-<div id="font">
-	<h1><b>My name is Jordan Aladesuru</b></h1>
-
-	<div id="top">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./style.css">
+		<title>Todo List</title>
+	</head>
+	<body>
 
 
-		<img id="jollof" src="jollofrice.jpg" height="200px" width="200px">
+		<header>
+		<h1>Jordan's Todo List</h1>
+		</header>
+		<form>
+			<input type="text" class="todo-input">
+			<button class="todo-button" type="submit">
+				<i class="fas fa-plus-square"></i>
+			</button>
+			<div class="select">
+				<select name="todos" class="filter-todo">
+					<option value="all">All</option>
+					<option value="completed">Completed</option>
+					<option value="uncompleted">Uncompleted</option>
+				</select>
+			</div>
+		</form>
 
-		<img id="steph" src="stephen curry dribbling.jpg" height="200px" width="200px">
-
-		<p>I was born in Chicago. My parents were born in Nigeria. I am 15 years old. I like to play basketball. My favorite Nigerian food is Jollof rice and my favorite American food is Fried Chicken. I like to learn about NFTs and how to create and flip them. I like the idea of building a community around your artwork and getting genuine support and also getting paid(hopefully). I also like playing a part in those communities and doing research to buy my own nfts from people and hopefully flip to make quick profit or to hold for the longterm.</p>
-
-		<p>I have 3 siblings: Joshua, Alexandria, and Jacob. Jacob is my younger brother who is 10 years old. Alexandria is my older sister who is 19 years old. Joshua is my older brother who is 22 years old. I enjoy family time especially with my older brother and sister since i dont get to see them as often because they are in college. They go to school at <a href="https://illinois.edu/">University of Illinois at Urbana Champaign</a>  I go to <a href="https://www.gemschicago.org/en/">GEMS World Academy </a>in Chicago, IL. I am currently doing a project doing a project in my computer science class where I have to create a website about myself.</p>
-
-
-	</div>
-	<div id="bottom"> 
-	<img id="me" src="me.jpg" height="200px" width="200px">
-
-	<img id="lucki" src="lucki-image.jpg" height="200px" width="200px">
-	<h2>My hobbies are to play basketball 🏀, draw, and learning game developement. I think basketball is fun because I just love playing the sport and I like high intensity sports that involve contact and a lot of moving rather than sports like volley ball which isn't enough movement or badminton or squash.</h2>
-	<p> My goals are to become a operating systems developer and maybe game developement. I want to make my own operating systems like MacOS or Microsoft Windows but my own new OS. I like this idea because I'd like to create something new and as big as Windows or MacOS. I'm not too sure what I want to do with game developement but I like the idea of creating my own lore for a game and feeling like I'm inside that world when I'm playing the game. I don't like bland games that are just grinding games with no end. I like the idea of something outside of this world (but still realistic enough to suspend disbelief and bring in versimilitude.) I feel like others enojoy those types of games as well. I'm not sure if i'd like to crveate my own new game software to create games like for example roblox is a platform where you can create games. Or i'm not sure if i want to create games for a console or make my own platform on the web or app to create games(or both).</p>
-	<p> I like to take pictures and learn how to take photos. I think taking pictures is very fun and I would like to take it seriously and try to take pictures on a professional level just for my own sake of liking to take photos. I think when you do something good you're very proud of yourself and I'd like to be proud of my photos.</p>
-
-	</div>
-</div>
-<p>Click this document to activate the handler.</p>
-<button id="PEPEJULIANONZIEMA">Why ah u gae?</button>
-<img src="why.jpg">
-</body>
+		<div class="todo-container"> 
+			<ul class="todo-list"></ul>
+		</div>
+		
+		<script src="./app.js"></script>
+		<div id="img"> 
+			<img src="jcbt.gif" height="167" width="200"></img> 
+		</div>
+	</body>
 </html>
