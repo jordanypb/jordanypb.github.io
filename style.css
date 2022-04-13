@@ -105,7 +105,7 @@ form button:hover {
 	transform: translateY(8rem) rotateZ(20deg);
 	opacity: 0; 
 }
-
+/* changing the appearence of html elements */
 select{
 	-webkit-appearance: none;
 	-moz-appearance: none ;
